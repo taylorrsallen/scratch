@@ -1,0 +1,8 @@
+[
+    (
+        name: "Hammer",
+        mesh: "hammer",
+        scale: 1.0,
+        steps_per_voxel: 5,
+    ),
+]

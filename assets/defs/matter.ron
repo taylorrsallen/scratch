@@ -1,0 +1,51 @@
+[
+    (
+        name: "void",
+        state: None,
+        properties: None,
+        texture_id_data: None,
+        meta_texture_id_data: None,
+    ),
+    (
+        name: "dirt",
+        state: Some(Solid),
+        properties: Some([
+            Dense,
+            Opaque,
+        ]),
+        texture_id_data: Some((0, 0, 1, 2, 0, 0)),
+        meta_texture_id_data: None,
+    ),
+    (
+        name: "grass",
+        state: Some(Solid),
+        properties: Some([
+            Dense,
+            Opaque,
+        ]),
+        texture_id_data: Some((3, 3, 1, 4, 3, 3)),
+        meta_texture_id_data: None,
+    ),
+    (
+        name: "tilled dirt",
+        state: Some(Solid),
+        properties: Some([
+            Dense,
+            Opaque,
+        ]),
+        texture_id_data: Some((5, 5, 1, 6, 5, 5)),
+        meta_texture_id_data: None,
+    ),
+    (
+        name: "stone",
+        state: Some(Solid),
+        properties: Some([
+            Hard,
+            Dense,
+            Heavy,
+            Opaque,
+        ]),
+        texture_id_data: Some((32, 32, 33, 34, 32, 32)),
+        meta_texture_id_data: None,
+    ),
+]

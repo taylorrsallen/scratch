@@ -1,0 +1,15 @@
+[
+    (
+        name: "Throw Hammer",
+        costs: [
+            (Stamina, Instant(5)),
+        ],
+        projectiles: [
+            0,
+        ],
+        valid_targets: [
+            Coord,
+            Unit,
+        ],
+    ),
+]
