@@ -1,0 +1,118 @@
+([
+    ((
+        kind: Any,
+        keys: [
+            A,
+            Left,
+        ],
+        buttons: [],
+    ), MoveLeft),
+    ((
+        kind: Any,
+        keys: [
+            D,
+            Right,
+        ],
+        buttons: [],
+    ), MoveRight),
+    ((
+        kind: Any,
+        keys: [
+            S,
+            Down,
+        ],
+        buttons: [],
+    ), MoveBack),
+    ((
+        kind: Any,
+        keys: [
+            W,
+            Up,
+        ],
+        buttons: [],
+    ), MoveForward),
+    ((
+        kind: Any,
+        keys: [
+            LShift,
+        ],
+        buttons: [],
+    ), FastMod),
+    ((
+        kind: Any,
+        keys: [
+            LControl,
+        ],
+        buttons: [],
+    ), SlowMod),
+    ((
+        kind: Any,
+        keys: [
+            LAlt,
+        ],
+        buttons: [],
+    ), AltMod),
+    ((
+        kind: Any,
+        keys: [
+            Capital,
+        ],
+        buttons: [],
+    ), CapsMod),
+    ((
+        kind: Any,
+        keys: [
+            LShift,
+        ],
+        buttons: [],
+    ), MultiMod),
+    ((
+        kind: Any,
+        keys: [],
+        buttons: [
+            Left,
+        ],
+    ), PrimaryAction),
+    ((
+        kind: Any,
+        keys: [],
+        buttons: [
+            Right,
+        ],
+    ), SecondaryAction),
+    ((
+        kind: Any,
+        keys: [],
+        buttons: [
+            Middle,
+        ],
+    ), TertiaryAction),
+    ((
+        kind: Any,
+        keys: [
+            Space,
+        ],
+        buttons: [],
+    ), Pause),
+    ((
+        kind: Any,
+        keys: [
+            Escape,
+        ],
+        buttons: [],
+    ), Escape),
+    ((
+        kind: Any,
+        keys: [
+            Tab,
+        ],
+        buttons: [],
+    ), Inventory),
+    ((
+        kind: Any,
+        keys: [
+            Grave,
+        ],
+        buttons: [],
+    ), Settings),
+])

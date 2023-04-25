@@ -1,0 +1,12 @@
+(
+    master_volume: 1.0,
+    sfx_volume: 1.0,
+    bgm_volume: 1.0,
+    camera_speed: 10.0,
+    camera_pivot_speed: 0.75,
+    camera_zoom_speed: 0.1,
+    min_zoom: 2.5,
+    max_zoom: 50.0,
+    camera_fast_mult: 2.0,
+    camera_slow_mult: 0.5,
+)

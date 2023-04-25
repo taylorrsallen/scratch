@@ -1,0 +1,35 @@
+//////////////////////////////////=////////////////////////////////=////////////////////////////////
+// USE
+use crate::*;
+
+//////////////////////////////////=////////////////////////////////=////////////////////////////////
+// PLUGIN
+pub struct EditorPlugin;
+impl Plugin for EditorPlugin {
+    fn build(&self, app: &mut App) {
+        app.insert_resource(EditorState::default());
+    }
+}
+
+//////////////////////////////////=////////////////////////////////=////////////////////////////////
+// RESOURCES
+#[derive(Resource)]
+pub struct EditorState {
+    pub primary_voxel: Voxel,
+    pub secondary_voxel: Voxel,
+}
+
+impl Default for EditorState {
+    fn default() -> Self {
+        Self {
+            primary_voxel: Voxel::from_matter_id(1),
+            secondary_voxel: Voxel::from_matter_id(2),
+        }
+    }
+}
+
+//////////////////////////////////=////////////////////////////////=////////////////////////////////
+// STRUCTS
+enum EditorAction {
+
+}

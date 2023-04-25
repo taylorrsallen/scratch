@@ -1,0 +1,29 @@
+//////////////////////////////////=////////////////////////////////=////////////////////////////////
+// USE
+use crate::*;
+
+mod game_time;
+pub use game_time::*;
+mod lifetime;
+pub use lifetime::*;
+
+//////////////////////////////////=////////////////////////////////=////////////////////////////////
+// PLUGIN
+pub struct GenericsPlugin;
+impl Plugin for GenericsPlugin {
+    fn build(
+        &self,
+        app: &mut App,
+    ) {
+        app.add_plugin(GameTimePlugin)
+            .add_plugin(LifetimePlugin);
+    }
+}
+
+//////////////////////////////////=////////////////////////////////=////////////////////////////////
+// ENUMS
+#[derive(Clone, Copy, PartialEq, Eq)]
+pub enum TargetSelection {
+    Coord(IVec3),
+    Unit(Entity, IVec3),
+}
